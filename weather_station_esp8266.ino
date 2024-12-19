@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6c7eT2RB5"
-#define BLYNK_TEMPLATE_NAME "Environment Monitor"
-#define BLYNK_AUTH_TOKEN "Qa-ABSHLr4kpF9n3iDa3lB2ZhQORLeFE"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
@@ -8,8 +8,8 @@
 
 // Blynk credentials
 char auth[] = BLYNK_AUTH_TOKEN;   // Replace with your Blynk Auth Token
-char ssid[] = "Hotpots";    // Replace with your WiFi SSID
-char pass[] = "2444666668888888"; // Replace with your WiFi Password
+char ssid[] = "";    // Replace with your WiFi SSID
+char pass[] = ""; // Replace with your WiFi Password
 
 // Pin Definitions
 #define DHT_PIN D3         // DHT sensor data pin
